@@ -1,0 +1,14 @@
+{
+     "port": "8080",
+     "backends": [
+         {
+             "url": "http://localhost:8890/",
+             "health": "health"
+         },
+         {
+             "url": "http://localhost:8082/",
+             "health": "health"
+         }
+     ],
+     "timeOut": 50
+ }
